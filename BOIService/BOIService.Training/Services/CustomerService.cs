@@ -22,17 +22,23 @@ namespace BOIService.Training.Services
 
         public void CreateCourse(Customer customer)
         {
+            //string errorMessage = "";
+            //return errorMessage;
             if (customer == null)
                 throw new InvalidOperationException("Customer was not provided");
 
-            //if (IsProductNameAlreadyUsed(product.ProductName))
-            //    throw new DuplicateNameException("Product Name already Used");
-            //if (!IsValidTimeSetup(product.Date))
-            //    throw new InvalidOperationException("Date should not be Past");
+            if (IsCustomerNameAlreadyRegistered(customer.Name))
+                throw new InvalidOperationException("This Customer Name Already Exist");
+            if (IsCustomerEmailAlreadyRegistered(customer.Email))
+                throw new InvalidOperationException("This Customer Email Address Already Exist");
 
             _trainingUnitOfWork.Customers.Add(
                 _mapper.Map<Entities.Customer>(customer));
             _trainingUnitOfWork.Save();
         }
+        public bool IsCustomerNameAlreadyRegistered(string customerName) =>
+            _trainingUnitOfWork.Customers.GetCount(x => x.Name == customerName) > 0;
+        public bool IsCustomerEmailAlreadyRegistered(string email) =>
+            _trainingUnitOfWork.Customers.GetCount(x => x.Email == email) > 0;
     }
 }

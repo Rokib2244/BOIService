@@ -11,13 +11,14 @@ namespace BOIService.Models
 {
     public class CreateCustomerModel
     {
-        
+
         public string Name { get; set; }
         public string Address { get; set; }
         public string Email { get; set; }
         public int PaymentTerm { get; set; }
-        private readonly ICustomerService _customerService;
-        private readonly IMapper _mapper;
+
+        private  ICustomerService _customerService;
+        private  IMapper _mapper;
         public CreateCustomerModel()
         {
             _customerService = Startup.AutofacContainer.Resolve<ICustomerService>();
@@ -31,13 +32,15 @@ namespace BOIService.Models
 
         internal void CreateCustomer()
         {
-            //var customer = _mapper.Map<Customer>(this);
-            var customer = new Customer {
-                Name = Name,
-                Email = Email,
-                Address = Address,
-                PaymentTerm = PaymentTerm
-            };
+            var customer = _mapper.Map<Customer>(this);
+
+            //var customer = new Customer
+            //{
+            //    Name = Name,
+            //    Email = Email,
+            //    Address = Address,
+            //    PaymentTerm = PaymentTerm
+            //};
 
             _customerService.CreateCourse(customer);
         }

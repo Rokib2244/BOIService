@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Practice of Full CRUD\\BOIService\\BOIService\\BOIService.csproj": {}
+    "E:\\BOIService\\BOIService\\BOIService\\BOIService.csproj": {}
   },
   "projects": {
-    "E:\\Practice of Full CRUD\\BOIService\\BOIService.Data\\BOIService.Data.csproj": {
+    "E:\\BOIService\\BOIService\\BOIService.Data\\BOIService.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Practice of Full CRUD\\BOIService\\BOIService.Data\\BOIService.Data.csproj",
+        "projectUniqueName": "E:\\BOIService\\BOIService\\BOIService.Data\\BOIService.Data.csproj",
         "projectName": "BOIService.Data",
-        "projectPath": "E:\\Practice of Full CRUD\\BOIService\\BOIService.Data\\BOIService.Data.csproj",
+        "projectPath": "E:\\BOIService\\BOIService\\BOIService.Data\\BOIService.Data.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\Practice of Full CRUD\\BOIService\\BOIService.Data\\obj\\",
+        "outputPath": "E:\\BOIService\\BOIService\\BOIService.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,14 +88,14 @@
         }
       }
     },
-    "E:\\Practice of Full CRUD\\BOIService\\BOIService.Training\\BOIService.Training.csproj": {
+    "E:\\BOIService\\BOIService\\BOIService.Training\\BOIService.Training.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Practice of Full CRUD\\BOIService\\BOIService.Training\\BOIService.Training.csproj",
+        "projectUniqueName": "E:\\BOIService\\BOIService\\BOIService.Training\\BOIService.Training.csproj",
         "projectName": "BOIService.Training",
-        "projectPath": "E:\\Practice of Full CRUD\\BOIService\\BOIService.Training\\BOIService.Training.csproj",
+        "projectPath": "E:\\BOIService\\BOIService\\BOIService.Training\\BOIService.Training.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\Practice of Full CRUD\\BOIService\\BOIService.Training\\obj\\",
+        "outputPath": "E:\\BOIService\\BOIService\\BOIService.Training\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -112,8 +112,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Practice of Full CRUD\\BOIService\\BOIService.Data\\BOIService.Data.csproj": {
-                "projectPath": "E:\\Practice of Full CRUD\\BOIService\\BOIService.Data\\BOIService.Data.csproj"
+              "E:\\BOIService\\BOIService\\BOIService.Data\\BOIService.Data.csproj": {
+                "projectPath": "E:\\BOIService\\BOIService\\BOIService.Data\\BOIService.Data.csproj"
               }
             }
           }
@@ -188,14 +188,14 @@
         }
       }
     },
-    "E:\\Practice of Full CRUD\\BOIService\\BOIService\\BOIService.csproj": {
+    "E:\\BOIService\\BOIService\\BOIService\\BOIService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Practice of Full CRUD\\BOIService\\BOIService\\BOIService.csproj",
+        "projectUniqueName": "E:\\BOIService\\BOIService\\BOIService\\BOIService.csproj",
         "projectName": "BOIService",
-        "projectPath": "E:\\Practice of Full CRUD\\BOIService\\BOIService\\BOIService.csproj",
+        "projectPath": "E:\\BOIService\\BOIService\\BOIService\\BOIService.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "E:\\Practice of Full CRUD\\BOIService\\BOIService\\obj\\",
+        "outputPath": "E:\\BOIService\\BOIService\\BOIService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -212,8 +212,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Practice of Full CRUD\\BOIService\\BOIService.Training\\BOIService.Training.csproj": {
-                "projectPath": "E:\\Practice of Full CRUD\\BOIService\\BOIService.Training\\BOIService.Training.csproj"
+              "E:\\BOIService\\BOIService\\BOIService.Training\\BOIService.Training.csproj": {
+                "projectPath": "E:\\BOIService\\BOIService\\BOIService.Training\\BOIService.Training.csproj"
               }
             }
           }

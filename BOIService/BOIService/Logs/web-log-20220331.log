@@ -2,3 +2,23 @@
 2022-03-31 00:43:15.092 +06:00 [INF] Application Starting up
 2022-03-31 01:00:25.232 +06:00 [INF] Application Starting up
 2022-03-31 01:07:21.602 +06:00 [INF] Application Starting up
+2022-03-31 10:24:16.471 +06:00 [INF] Application Starting up
+2022-03-31 10:26:25.034 +06:00 [ERR] Create Customer Failed.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+CreateCustomerModel -> Customer
+BOIService.Models.CreateCustomerModel -> BOIService.Training.BusinessObjects.Customer
+   at lambda_method603(Closure , Object , Customer , ResolutionContext )
+   at BOIService.Models.CreateCustomerModel.CreateCustomer() in E:\BOIService\BOIService\BOIService\Models\CreateCustomerModel.cs:line 34
+   at BOIService.Controllers.CustomerController.Create(CreateCustomerModel model) in E:\BOIService\BOIService\BOIService\Controllers\CustomerController.cs:line 32
+2022-03-31 10:27:35.520 +06:00 [INF] Application Starting up
+2022-03-31 10:29:10.656 +06:00 [INF] Application Starting up
+2022-03-31 10:41:51.492 +06:00 [INF] Application Starting up
+2022-03-31 10:43:26.001 +06:00 [ERR] Create Customer Failed.
+System.InvalidOperationException: This Customer Name Already Exist
+   at BOIService.Training.Services.CustomerService.CreateCourse(Customer customer) in E:\BOIService\BOIService\BOIService.Training\Services\CustomerService.cs:line 31
+   at BOIService.Models.CreateCustomerModel.CreateCustomer() in E:\BOIService\BOIService\BOIService\Models\CreateCustomerModel.cs:line 44
+   at BOIService.Controllers.CustomerController.Create(CreateCustomerModel model) in E:\BOIService\BOIService\BOIService\Controllers\CustomerController.cs:line 32
+2022-03-31 11:02:10.215 +06:00 [INF] Application Starting up
+2022-03-31 11:07:57.374 +06:00 [INF] Application Starting up

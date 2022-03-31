@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZvnWb9qPft9Mnm9cQqZMYB/KfhkNLEBl8xoiuSc/Ps1iYZpocrIq6hUqKSEV8v+UswhCmb2H8QBp6d6/xXYqog==",
+  "dgSpecHash": "RPyfsxnMJ9ts8WovTVAmyoA/GGuRLUifa3gTTZ+chYGY8khizKaGL11YsUfuK+hMupyd7o0qMt4G73g6ik+H0w==",
   "success": true,
-  "projectFilePath": "E:\\Practice of Full CRUD\\BOIService\\BOIService.Data\\BOIService.Data.csproj",
+  "projectFilePath": "E:\\BOIService\\BOIService\\BOIService.Data\\BOIService.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",
