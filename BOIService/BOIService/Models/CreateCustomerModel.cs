@@ -21,6 +21,7 @@ namespace BOIService.Models
         private  IMapper _mapper;
         public CreateCustomerModel()
         {
+            
             _customerService = Startup.AutofacContainer.Resolve<ICustomerService>();
             _mapper = Startup.AutofacContainer.Resolve<IMapper>();
         }

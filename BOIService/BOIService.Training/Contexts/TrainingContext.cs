@@ -30,5 +30,6 @@ namespace BOIService.Training.Contexts
             base.OnConfiguring(dbContextOptionsBuilder);
         }
         public DbSet<Customer> Customers { get; set; }
+        public DbSet<Invoice> Invoices { get; set; }
     }
 }

@@ -4,14 +4,16 @@ using BOIService.Training.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace BOIService.Data.Migrations
+namespace BOIService.Migrations.Training
 {
     [DbContext(typeof(TrainingContext))]
-    partial class TrainingContextModelSnapshot : ModelSnapshot
+    [Migration("20220331064044_AddInvoice")]
+    partial class AddInvoice
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

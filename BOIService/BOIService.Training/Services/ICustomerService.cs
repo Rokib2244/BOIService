@@ -10,5 +10,6 @@ namespace BOIService.Training.Services
     public interface ICustomerService
     {
         void CreateCourse(Customer customer);
+        IList<Customer> GetAllCustomersForInvoice();
     }
 }

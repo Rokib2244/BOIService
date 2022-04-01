@@ -13,6 +13,8 @@ namespace BOIService.Profiles
         public WebProfile()
         {
             CreateMap<CreateCustomerModel, Customer>().ReverseMap();
+            
+            CreateMap<CreateInvoiceModel, Invoice>().ReverseMap();
         }
     }
 }

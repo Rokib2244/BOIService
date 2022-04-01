@@ -38,7 +38,11 @@ namespace BOIService.Training
             //builder.RegisterType<CourseModel>().AsSelf();
             builder.RegisterType<CustomerService>().As<ICustomerService>()
                 .InstancePerLifetimeScope();
+            builder.RegisterType<InvoiceService>().As<IInvoiceService>()
+               .InstancePerLifetimeScope();
             builder.RegisterType<CustomerRepository>().As<ICustomerRepository>()
+                .InstancePerLifetimeScope();
+            builder.RegisterType<InvoiceRepository>().As<IInvoiceRepository>()
                 .InstancePerLifetimeScope();
             builder.RegisterType<TrainingUnitOfWork>().As<ITrainingUnitOfWork>()
                 .InstancePerLifetimeScope();

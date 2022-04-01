@@ -14,6 +14,7 @@ namespace BOIService.Training.Profiles
         public TrainingProfile()
         {
             CreateMap<EO.Customer, BO.Customer>().ReverseMap();
+            CreateMap<EO.Invoice, BO.Invoice>().ReverseMap();
         }
     }
 }

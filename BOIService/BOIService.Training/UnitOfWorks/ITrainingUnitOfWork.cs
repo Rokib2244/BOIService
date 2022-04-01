@@ -11,5 +11,6 @@ namespace BOIService.Training.UnitOfWorks
    public interface ITrainingUnitOfWork : IUnitOfWork
     {
         ICustomerRepository Customers { get; }
+        IInvoiceRepository Invoices { get; }
     }
 }

@@ -21,6 +21,7 @@ namespace BOIService.Training.Services
         }
 
         public void CreateCourse(Customer customer)
+
         {
             //string errorMessage = "";
             //return errorMessage;
@@ -40,5 +41,17 @@ namespace BOIService.Training.Services
             _trainingUnitOfWork.Customers.GetCount(x => x.Name == customerName) > 0;
         public bool IsCustomerEmailAlreadyRegistered(string email) =>
             _trainingUnitOfWork.Customers.GetCount(x => x.Email == email) > 0;
+
+        public IList<Customer> GetAllCustomersForInvoice()
+        {
+            var customerEntities = _trainingUnitOfWork.Customers.GetAll();
+            var customers = new List<Customer>();
+            foreach(var entity in customerEntities)
+            {
+                var customer = _mapper.Map<Customer>(entity);
+                customers.Add(customer);
+            }
+            return customers;
+        }
     }
 }

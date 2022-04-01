@@ -912,3 +912,4 @@ E:\BOIService\BOIService\BOIService\obj\Debug\net5.0\BOIService.dll
 E:\BOIService\BOIService\BOIService\obj\Debug\net5.0\ref\BOIService.dll
 E:\BOIService\BOIService\BOIService\obj\Debug\net5.0\BOIService.pdb
 E:\BOIService\BOIService\BOIService\obj\Debug\net5.0\BOIService.genruntimeconfig.cache
+E:\BOIService\BOIService\BOIService\obj\Debug\net5.0\Razor\Views\Invoice\CreateInvoice.cshtml.g.cs
